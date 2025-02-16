@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #8a2b06; /* Dark orange background */
+    color: white; /* White text */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); /* Shadow effect */
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2rem; /* Larger font size for the title */
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4d1601; /* Darker orange for the cart */
+    border-radius: 25px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.cart span {
+    font-size: 1.2rem; /* Font size for the cart text */
+}
