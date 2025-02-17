@@ -1,11 +1,16 @@
-import React from 'react'
-import Header from './Header/Header'
+import {Fragment} from 'react'
+import Header from './Components/Layout/Header'
+import Meals from './Components/Layout/Meals/Mealitem/Meals'
 
 const App = () => {
   return (
-    <div>
+    <Fragment>
      <Header/>
-    </div>
+<main>
+  <Meals/>
+</main>
+
+    </Fragment>
   )
 }
 
